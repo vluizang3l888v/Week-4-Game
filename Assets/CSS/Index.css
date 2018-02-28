@@ -1,0 +1,39 @@
+#container-fluid {
+	width: 75%;
+	height: 90%px;
+	padding-left: 25%;
+	padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+h1{
+	background-color: yellow;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	border: solid 1px #ddd;
+	border-radius: 30px;
+	font-family: 'Merriweather', serif;
+}
+
+
+
+
+#instructions {
+	background-color:blue;
+	text-decoration-color: bold, white;
+	width: 85%; 
+	clear:both;
+	padding-right: auto;
+	padding-left: auto;
+	border: solid 1px #ddd
+
+}
+
+
+body{
+background-color: #B9C0DA
+}
+
+

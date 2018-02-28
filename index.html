@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/CSS/Index.css"/>
+
+<!-- bootstrap -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!--below here the work begins-->
+
+
+</head>
+
+<body>
+
+            <div id="container-fluid">
+            <!--this will give me fullwidth container, spanning the entire width of my viewport-->
+            <div id ="wrapper">
+
+                <h1>Crystal Collectors!</h1>
+
+                <div id="instructions">
+                <p><h4>Instruction</h4><hr> You will be given a random number at the start of the game.</p>
+                <p>There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
+                <p>Each time the game starts, the game will change the values of each crystal.</p>
+               
+                <div class= "container">
+                <!-- <div> -->
+                <!--will no longer be called guessingNumber, change to random-number
+                <!-guessingNumber is where the number will be guessed-->
+                
+                <h2>Number to Guess: JS CODE HERE</h2> <!--still needs value elements from js.-->
+                
+                <div class="scoreboard">
+                
+                <h3>Computer Random Number</h3><p><h3 id ="random-number">STATUS JS HERE</h3></p>
+                
+                <h3>Wins:<div id="wins"></div></h3>
+                <h3>Losses:<div id="losses"></div></h3>
+                
+                <div id ="crystals">
+                
+                <img src="Assets/Images/blue.png" alt "blue color" width="150" height="150" id="img1">
+
+                <img src="Assets/Images/green.png" alt "green color" width="150" height="150" id="img2">
+
+                <img src="Assets/Images/red.png" alt "red color" width="150" height="150" id="img3">
+
+                <img src="Assets/Images/yellow.png" alt "yellow color" width="150" height="150" id="img4">
+                <!--JUST GAVE ID'S TO ALL 4 IMAGES TO TARGET THEM WITH JAVASCRIPT DOC -->
+                
+
+                <div id ="total">
+                <h2></div>Your Total Score is:</h2>  <!--missing intel on JS code.-->
+
+
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+
+<!--my random touch the letter and get the screen to tell you something-->
+<div>
+
+    <div id="RedDiamond">DO NOT CLICK THIS</div>
+    <div id="BlueDiamond">DO NOT CLICK THIS</div>
+    <div id="YellowDiamond">DO NOT CLICK THIS</div>  
+    <div id="GreenDiamond">DO NOT CLICK THIS</div>
+
+    <div>Warning</div>
+
+</div>
+
+
+
+<script src="Assets/JavaScript/game.js"></script>
+<footer>
+<p>Developed by: Luis Salazar</p>
+
+</footer>
+</body>
+</html>
+
